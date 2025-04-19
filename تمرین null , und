@@ -1,0 +1,16 @@
+let object = {
+    name: "samine",
+    lastname: "ghadrdan",
+    city: "mashhad",
+    age: null,
+    phone: undefined
+}
+console.log("جدول کل:", object)
+
+for (const key in object) {
+    if (object[key] === null || object[key] === undefined) {
+        delete object[key];
+    }
+}
+
+console.log("بعد از حذف:", object)
