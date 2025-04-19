@@ -1,0 +1,10 @@
+const orders={
+    laptop:{count:3,price:10000,model:"s510",name:"lenovo"},
+    pen:{count:10,price:20000,model:"s125",name:"pen"},
+    book:{count:5,price:7000,model:"a20",name:"book"}
+}
+for(const key in orders){
+    orders[key].price+=10
+}
+    
+console.log(orders)
