@@ -3,8 +3,11 @@ const orders={
     pen:{count:10,price:20000,model:"s125",name:"pen"},
     book:{count:5,price:7000,model:"a20",name:"book"}
 }
+let sum1=0
 for(const key in orders){
     orders[key].price+=10
+    sum1 += orders[key].price * orders[key].count;   
 }
     
 console.log(orders)
+console.log("مبلغ کل خرید :",sum1)
