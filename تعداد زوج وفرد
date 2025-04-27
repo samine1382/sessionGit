@@ -1,0 +1,16 @@
+let number=[1,3,5,4,6,8,7]
+
+let zoj=0
+let fard=0
+
+for(let num of number){
+    if(num%2===0){
+        zoj++
+    }
+    else{
+        fard++
+    }
+}
+
+console.log("تعداد اعداد زوج",zoj)
+console.log("تعداد اعداد فرد",fard)
