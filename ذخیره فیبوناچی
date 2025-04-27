@@ -1,0 +1,16 @@
+let a=6
+let fibarr=[]
+
+for (let i=0;i<a;i++){
+    if(i===0){
+        fibarr.push(0)
+    }
+    else if(i===1){
+        fibarr.push(1)
+    }
+    else{
+        let nextfib=fibarr[i-1]+fibarr[i-2]
+        fibarr.push(nextfib)
+    }
+}
+console.log("فیبوناچی",fibarr)
