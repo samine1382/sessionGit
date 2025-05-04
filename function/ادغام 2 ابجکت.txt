@@ -1,0 +1,10 @@
+function copy(a, b) {
+  for (let key in a) {
+    b[key] = a[key];
+  }
+}
+const obj1 = { name: "ثمینه", age: 22 };
+const obj2 = { city: "مشهد", job: "برنامه‌نویس" };
+
+copy(obj2, obj1);
+console.log(obj1);
