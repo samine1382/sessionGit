@@ -1,0 +1,12 @@
+function printobj(obj) {
+  for (let key in obj) {
+    console.log(`کلید: ${key}, مقدار: ${obj[key]}`)
+  }
+}
+const myobject = {
+  name: "ثمینه",
+  age: 22,
+  city: "مشهد"
+}
+
+printobj(myobject);

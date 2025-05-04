@@ -1,0 +1,9 @@
+function avg(array) {
+    let sum=0
+    for(let num of array){
+        sum+=num
+    }
+    let avgg=sum/array.length
+    console.log("میانگین:",avgg)
+}
+avg([1,2,3,5,7])
